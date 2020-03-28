@@ -1,7 +1,9 @@
 module.exports = {
   theme: {
     extend: {},
+    fontFamily: {
+    }
   },
   variants: {},
-  plugins: [],
-}
+  plugins: [require("tailwind-nord")]
+};
