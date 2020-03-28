@@ -12,6 +12,9 @@ module.exports = {
         "system-ui",
         "sans-serif"
       ]
+    },
+    maxWidth: {
+      '18': '18rem'
     }
   },
   variants: {},
