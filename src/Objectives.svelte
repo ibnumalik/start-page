@@ -4,8 +4,7 @@
 
   onMount(async () => {
     const res = await fetch(`./data/objectives.json`);
-    const data = await res.json();
-    objectives = data.objectives;
+    objectives = await res.json();
   });
 </script>
 
