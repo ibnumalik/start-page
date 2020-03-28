@@ -8,7 +8,7 @@
     "dev": "run-p start:dev autobuild watch:tailwind",
     "start:dev": "sirv public --dev",
     "start": "sirv public",
-    "watch:tailwind": "postcss public/tailwind.css -o public/index.css -w"
+    "watch:tailwind": "postcss public/tailwind.css -o public/build/index.css -w"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
