@@ -1,7 +1,20 @@
 [
   {
-    "name": "",
+    "name": "Student Activity",
+    "link": "http://google.com",
+    "repo": "https://github.com/ibnumalik/Student-Activity",
+    "labels": ["lumen", "react"]
+  },
+  {
+    "name": "Tazkirah",
     "link": "",
-    "repo": ""
+    "repo": "",
+    "labels": ["laravel", "vue"]
+  },
+  {
+    "name": "Goan - Kanban CLI",
+    "link": "",
+    "repo": "",
+    "labels": ["go"]
   }
 ]
