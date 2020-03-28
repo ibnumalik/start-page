@@ -2,6 +2,7 @@
   import Header from "./Header.svelte";
   import Learning from "./Learning.svelte";
   import Objectives from "./Objectives.svelte";
+  import Projects from "./Projects.svelte";
 
   const name = "Shaiful Aiman";
 </script>
@@ -22,7 +23,7 @@
       </section>
 
       <section class="flex-auto">
-        <Learning />
+        <Projects />
       </section>
     </div>
   </div>
