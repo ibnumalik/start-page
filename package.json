@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "autobuild": "rollup -c -w",
-    "build:tailwind": "NODE_ENV=production postcss public/tailwind.css -o public/index.css",
+    "build:tailwind": "NODE_ENV=production postcss public/tailwind.css -o public/build/index.css",
     "build": "npm run build:tailwind && rollup -c",
     "dev": "run-p start:dev autobuild watch:tailwind",
     "start:dev": "sirv public --dev",
