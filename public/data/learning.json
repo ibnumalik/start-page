@@ -1,0 +1,17 @@
+[
+  {
+    "academy": "Coursera",
+    "subject": "Getting Started with Go",
+    "link": "https://www.coursera.org/learn/golang-getting-started/home/welcome"
+  },
+  {
+    "academy": "Laracasts",
+    "subject": "Object-Oriented Principles in PHP",
+    "link": "https://laracasts.com/series/object-oriented-principles-in-php"
+  },
+  {
+    "academy": "Udemy",
+    "subject": "Node.js for Beginners - Become a Node.js Developer + Project",
+    "link": "https://www.udemy.com/course/nodejs-for-beginners-become-a-nodejs-developer/"
+  }
+]
