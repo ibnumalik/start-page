@@ -1,7 +1,7 @@
 {
   "objectives": [
     "Deploy a student activity app built with <strong>Lumen</strong> and <strong>React</strong>.",
-    "Deploy a tazkirah aggregator site using <strong>Laravel</strong> and <strong>Vue</strong>",
-    "Create a simple cli board app with <strong>Go</strong>"
+    "Deploy a tazkirah aggregator site using <strong>Laravel</strong> and <strong>Vue</strong>.",
+    "Create a simple cli board app with <strong>Go</strong>."
   ]
 }
