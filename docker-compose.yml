@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    volumes:
+      - ./public:/var/www/public
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - web
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=welcome_nginx"
+      - "traefik.frontend.rule=Host:welcome.local"
+      - "traefik.docker.network=web"
+      - "traefik.port=80"
+
+networks:
+  web:
+    external: true
