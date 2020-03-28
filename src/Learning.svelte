@@ -10,13 +10,15 @@
 </script>
 
 <div class="block">
-  <h2 class="font-bold text-lg mb-4">Continuous Learning</h2>
-  <ul>
+  <h2 class="font-bold text-lg mb-4 text-nord6">Continuous Learning</h2>
+  <ul class="-mx-2">
     {#each educations as education}
-      <li class="mb-2 max-w-18">
-        <a class="bg-nord2 px-4 py-3 rounded-md flex flex-col items-start" href={education.link}>
+      <li class="mb-2">
+        <a
+          class="px-2 py-3 rounded-md flex flex-col items-start max-w-18 hover:bg-nord2"
+          href={education.link}>
           <span class="mb-4 font-bold">{education.subject}</span>
-          <span class="bg-nord9 rounded text-sm px-1  text-nord0">
+          <span class="bg-nord9 rounded text-sm px-1 text-nord0">
             {education.academy}
           </span>
         </a>

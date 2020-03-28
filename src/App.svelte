@@ -17,12 +17,12 @@
 
     <Objectives />
 
-    <div class="flex">
-      <section class="flex-auto">
+    <div class="flex -m-2">
+      <section class="flex-1 p-2 learning">
         <Learning />
       </section>
 
-      <section class="flex-auto">
+      <section class="flex-1 p-2 projects">
         <Projects />
       </section>
     </div>
