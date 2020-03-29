@@ -28,9 +28,7 @@
               Local
             </a>
           </div>
-
         </div>
-
       </li>
     {/each}
   </ul>
