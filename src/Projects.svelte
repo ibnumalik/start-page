@@ -11,7 +11,7 @@
 
 <div class="block">
   <h2 class="font-bold text-lg mb-4 text-nord6">Projects</h2>
-  <ul>
+  <ul class="grid grid-cols-2">
     {#each projects as project}
       <li class="mb-2 max-w-18">
         <div class="py-3 rounded-md flex flex-col items-start">
