@@ -1,6 +1,4 @@
 <script>
-  export let name;
-
   const options = {
     weekday: "long",
     year: "numeric",
@@ -9,7 +7,7 @@
   };
   const d = new Date();
 
-  const date = d.toLocaleDateString('en-MY', options);
+  const date = d.toLocaleDateString("en-MY", options);
 </script>
 
 <div class="header pt-12 pb-8">
