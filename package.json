@@ -8,7 +8,7 @@
     "dev": "run-p start:dev autobuild watch:tailwind",
     "start:dev": "sirv public --dev",
     "start": "sirv public",
-    "deploy": "docker-compose up -d",
+    "deploy": "npm run build && docker-compose up -d",
     "watch:tailwind": "postcss public/tailwind.css -o public/build/index.css -w"
   },
   "devDependencies": {
