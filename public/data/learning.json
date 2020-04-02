@@ -13,5 +13,10 @@
     "academy": "Udemy",
     "subject": "Node.js for Beginners - Become a Node.js Developer + Project",
     "link": "https://www.udemy.com/course/nodejs-for-beginners-become-a-nodejs-developer/"
+  },
+  {
+    "academy": "Egghead",
+    "subject": "The Beginner's Guide to React",
+    "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
   }
 ]
