@@ -8,7 +8,7 @@
     "dev": "run-p start:dev autobuild watch:tailwind",
     "start:dev": "sirv public --dev",
     "start": "sirv public",
-    "deploy": "npm run stash:all && npm run build && docker-compose up -d",
+    "deploy": "npm run stash:all && npm run build && docker-compose up -d && git stash pop",
     "watch:tailwind": "postcss public/tailwind.css -o public/build/index.css -w",
     "stash:all": "git stash --include-untracked"
   },
