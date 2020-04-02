@@ -8,8 +8,9 @@
     "dev": "run-p start:dev autobuild watch:tailwind",
     "start:dev": "sirv public --dev",
     "start": "sirv public",
-    "deploy": "npm run build && docker-compose up -d",
-    "watch:tailwind": "postcss public/tailwind.css -o public/build/index.css -w"
+    "deploy": "npm run stash:all && npm run build && docker-compose up -d",
+    "watch:tailwind": "postcss public/tailwind.css -o public/build/index.css -w",
+    "stash:all": "git stash --include-untracked"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
