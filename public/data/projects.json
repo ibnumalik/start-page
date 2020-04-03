@@ -1,20 +1,42 @@
 [
   {
     "name": "Student Activity",
-    "link": "http://google.com",
+    "link": "http://school.local",
+    "prod_link": "",
     "repo": "https://github.com/ibnumalik/Student-Activity",
-    "labels": ["lumen", "react"]
+    "labels": ["lumen", "react"],
+    "directory": "~/develop/github.com/ibnumalik/Student-Activity/",
+    "new_directory": "~/develop/student-activity-v2",
+    "notes": "Merge the new changes to the old one."
   },
   {
     "name": "Tazkirah",
     "link": "",
     "repo": "",
-    "labels": ["laravel", "vue"]
+    "labels": ["laravel", "vue"],
+    "directory": "~/develop/github.com/ibnumalik/talaqqi"
   },
   {
     "name": "Goan - Kanban CLI",
     "link": "",
     "repo": "",
-    "labels": ["go"]
+    "labels": ["go"],
+    "directory": "~/develop/github.com/ibnumalik/goan"
+  },
+  {
+    "name": "PHP Todo",
+    "link": "http://todo.local",
+    "prod_link": "http://todo.shaiful.my",
+    "repo": "https://github.com/ibnumalik/todo-php",
+    "labels": ["php"],
+    "directory": "~/develop/github.com/ibnumalik/php/"
+  },
+  {
+    "name": "Mini CRM Company",
+    "link": "http://mini-crm.local",
+    "prod_link": "",
+    "repo": "https://github.com/ibnumalik/mini-crm-company",
+    "labels": ["laravel", "vue"],
+    "directory": "~/develop/github.com/ibnumalik/mini-crm-company/"
   }
 ]
