@@ -1,5 +1,5 @@
 {
-  "name": "welcome-page",
+  "name": "start-page",
   "version": "1.0.0",
   "scripts": {
     "autobuild": "rollup -c -w",

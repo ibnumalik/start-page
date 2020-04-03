@@ -11,8 +11,8 @@ services:
     restart: always
     labels:
       - "traefik.enable=true"
-      - "traefik.backend=welcome_nginx"
-      - "traefik.frontend.rule=Host:welcome.local"
+      - "traefik.backend=startpage_nginx"
+      - "traefik.frontend.rule=Host:startpage.local"
       - "traefik.docker.network=web"
       - "traefik.port=80"
 
