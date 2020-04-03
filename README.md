@@ -29,3 +29,9 @@ npm run build
 ```
 
 You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+
+## Todo
+
+1. Node.js wrapper to exec shell command.
+    - Open directory with code editor or terminal or file manager.
+2. Fetch ultralist json file.
