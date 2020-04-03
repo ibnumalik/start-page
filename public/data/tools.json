@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Traefik",
+    "link": "http://dashboard.traefik.local/dashboard/",
+    "directory": "~/develop/server/traefik/"
+  },
+  {
+    "name": "Portainer",
+    "link": "http://portainer.local/",
+    "directory": "~/develop/server/portainer/"
+  },
+  {
+    "name": "Adminer",
+    "link": "http://adminer.local/",
+    "directory": "~/develop/server/adminer/"
+  }
+]
