@@ -16,6 +16,10 @@
   function add() {
     objectives.update((objectives$) => [...objectives$, '']);
   }
+
+  function deletes(index) {
+    objectives.update(objectives$ => [...objectives$.slice(0, index, ...objectives$.slice(index+1))])
+  }
 </script>
 
 <div class="mb-8">
@@ -45,10 +49,15 @@
 
     {#if $objectives}
     <ol class="list-decimal list-inside">
-      {#each $objectives as objective}
+      {#each $objectives as objective, i}
       <li class="mb-2 leading-loose rounded-lg w-500">
         {#if editMode}
-        <input type="text" bind:value="{objective}" class="w-11/12 bg-nord1" />
+        <input
+          type="text"
+          bind:value="{objective}"
+          class="w-11/12 px-4 font-bold rounded-md shadow-inner bg-nord0"
+        />
+        <button class="text-xs text-nord11" on:click={() => deletes(i)}>d</button>
         {:else}
         <span> {@html objective} </span>
         {/if}
