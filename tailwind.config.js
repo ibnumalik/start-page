@@ -1,7 +1,11 @@
 module.exports = {
   purge: ['./src/**/*.svelte'],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '500': '500px',
+      },
+    },
     fontFamily: {
       sans: [
         '-apple-system',
