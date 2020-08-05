@@ -36,6 +36,6 @@
   },
   "private": true,
   "dependencies": {
-    "fastify": "^2.15.0"
+    "fastify": "^2.15.1"
   }
 }
