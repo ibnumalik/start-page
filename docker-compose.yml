@@ -1,20 +1,19 @@
-version: "3"
+version: '3'
 
 services:
   nginx:
     image: nginx:stable-alpine
+    restart: always
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.frontend.rule=Host:startpage.local'
+      - 'traefik.http.routers.startpage.rule=Host(`startpage.localhost`)'
+      - 'traefik.http.routers.startpage.entrypoints=web'
     volumes:
       - ./public:/var/www/public
       - ./default.conf:/etc/nginx/conf.d/default.conf
     networks:
       - web
-    restart: always
-    labels:
-      - "traefik.enable=true"
-      - "traefik.backend=startpage_nginx"
-      - "traefik.frontend.rule=Host:startpage.local"
-      - "traefik.docker.network=web"
-      - "traefik.port=80"
 
 networks:
   web:
